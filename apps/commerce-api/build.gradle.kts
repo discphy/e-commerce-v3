@@ -9,6 +9,9 @@ dependencies {
     implementation(project(":supports:jackson"))
     implementation(project(":supports:logging"))
     implementation(project(":supports:monitoring"))
+    implementation(project(":storage:commerce"))
+    implementation("org.springframework.security:spring-security-crypto")
+    implementation("com.github.f4b6a3:tsid-creator:${project.properties["tsidCreatorVersion"]}")
 
     // web
     implementation("org.springframework.boot:spring-boot-starter-web")

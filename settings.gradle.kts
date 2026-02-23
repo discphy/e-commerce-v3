@@ -11,6 +11,7 @@ include(
     ":supports:jackson",
     ":supports:logging",
     ":supports:monitoring",
+    ":storage:commerce",
 )
 
 // configurations
